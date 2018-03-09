@@ -1,0 +1,17 @@
+number1 = 101
+number2 = 141
+number3 = 121
+
+# uncomment following lines to take three numbers from user
+#num1 = float(input("Enter first number: "))
+#num2 = float(input("Enter second number: "))
+#num3 = float(input("Enter third number: "))
+
+if (number1 >= number2) and (number1 >= number3):
+   largest = num1
+elif (number2 >= number1) and (number2 >= number3):
+   largest = number2
+else:
+   largest = number3
+
+print("The largest number between",number1,",",number2,"and",number3,"is",largest)
